@@ -252,7 +252,7 @@ app.post('/users', function (req, res) {
     TableName: USERS_TABLE,
     Item: {
       userId: userId,
-      name: name,
+      name: name
     },
   };
 
